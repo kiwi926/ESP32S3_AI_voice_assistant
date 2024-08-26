@@ -134,7 +134,7 @@ void get_voice_answer(String llm_answer) {
                     
                     delay(10);
                     
-                    if (wait_cnt > 100) {
+                    if (wait_cnt > 200) {
                         wait_cnt = 0;
                         break;  // Break the loop if the wait time exceeds 1s
                     }
